@@ -108,13 +108,13 @@ const CreatePost = ({
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center gap-8 p-24 !pt-12">
+    <div className="flex min-h-screen flex-col items-center gap-8 p-6 sm:p-12 lg:p-24  !pt-12">
       <h1 className="text-5xl pb-2 font-black text-center bg-gradient-to-bl from-purple-900 to-green-500 text-transparent bg-clip-text">
         Create Post
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 items-center justify-center"
+        className="max-w-lg w-full flex flex-col gap-4 items-center justify-center"
       >
         <input
           type="text"

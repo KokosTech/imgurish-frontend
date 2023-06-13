@@ -39,7 +39,7 @@ const Post = async ({
   post = post?.value[0];
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between !pt-12 p-12 sm:p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between !pt-12 p-6 sm:p-12 lg:p-24 ">
       <div className="flex flex-col gap-6 items-center justify-center">
         <h1 className="text-5xl pb-2 font-black text-center bg-gradient-to-bl from-purple-900 to-green-500 text-transparent bg-clip-text">
           <Link href={`/boards/${params.board}`}>{params.board}</Link> /{" "}

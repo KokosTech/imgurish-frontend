@@ -28,7 +28,7 @@ const Home = async () => {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 !pt-12">
+    <main className="flex min-h-screen flex-col items-center justify-between p-6 sm:p-12 lg:p-24 !pt-12">
       <div className="flex flex-col gap-8 items-center justify-center">
         <h1 className="text-5xl pb-2 font-black text-center bg-gradient-to-bl from-purple-900 to-green-500 text-transparent bg-clip-text">
           imgurish
