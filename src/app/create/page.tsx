@@ -157,6 +157,7 @@ const CreatePost = ({
           onChange={(e) => setBoard(e.target.value)}
         />
         <button
+          disabled={loading}
           type="submit"
           className="p-2 bg-green-700 w-full border border-green-800 rounded-lg shadow-lg hover:bg-green-800 hover:border-green-900 transition-all duration-300 ease-in-out"
         >
