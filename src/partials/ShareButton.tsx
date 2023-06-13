@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { TbShare } from "react-icons/tb";
+import { TbShare, TbShare2 } from "react-icons/tb";
 
 const ShareButton = () => {
   const path = usePathname();
@@ -35,11 +35,11 @@ const ShareButton = () => {
     <>
       <button
         onClick={handleCopy}
-        className="flex justify-center items-center p-2 bg-purple-800 border border-purple-700 rounded-full shadow-lg hover:bg-purple-900 hover:purple-green-800 transition-all duration-300 ease-in-out"
+        className="flex justify-center items-center p-3 bg-purple-800 border border-purple-700 rounded-full shadow-lg hover:bg-purple-900 hover:purple-green-800 transition-all duration-300 ease-in-out"
       >
         <TbShare
-          size={36}
-          className="font-black hover:scale-105 transition-all duration-500"
+          size={28}
+          className="-ml-1 font-black hover:scale-105 transition-all duration-500"
         />
       </button>
     </>
